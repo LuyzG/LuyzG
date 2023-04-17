@@ -2,8 +2,8 @@
 import Developer from 'LuyzG'
 
 class AboutMe extends Developer {
-  name    = 'Luiz Gabriel'
-  local   = 'Brazil';
+  name = 'Luiz Gabriel'
+  local = 'Brazil';
 }
 
 class Skills extends Developer {
