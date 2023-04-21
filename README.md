@@ -2,7 +2,7 @@
 import Developer from 'LuyzG'
 
 class AboutMe extends Developer {
-  name = 'Luiz Gabriel'
+  name = 'Luiz Gabriel';
   local = 'Brazil';
 }
 
