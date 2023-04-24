@@ -7,8 +7,8 @@ class AboutMe extends Developer {
 }
 
 class Skills extends Developer {
-  languages = ['JavaScript'];
-  interests = ['PHP'];
+  languages = ['HTML, CSS, JavaScript, NodeJS'];
+  interests = ['PHP, SQL'];
 }
 ```
 <!---
