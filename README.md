@@ -1,15 +1,32 @@
-```js
+```ts
 import Developer from 'LuyzG'
 
-class AboutMe extends Developer {
-  name = 'Luiz Gabriel';
-  local = 'Brazil';
+class Developer {
+  constructor(
+    private readonly languages: string[],
+    private readonly interests: string[],
+  ) {}
 }
 
-class Skills extends Developer {
-  languages = ['HTML, CSS, JavaScript, NodeJS'];
-  interests = ['PHP, SQL'];
+class MySelf extends Developer {
+  private name: string;
+  private local: string;
+
+  constructor() {
+    const interests = ["HTML", "CSS", "JavaScript", "NodeJS"];
+    const languages = ["PHP", "SQL"];
+    super(
+      languages,
+      interests,
+    );
+    this.name = "Luiz Gabriel";
+    this.local = "Brazil";
+  }
 }
+
+const me = new MySelf();
+
+console.log(me)
 ```
 <!---
 LuyzG/LuyzG is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
