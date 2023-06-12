@@ -1,6 +1,4 @@
 ```ts
-import Developer from 'LuyzG'
-
 class Developer {
   constructor(
     private readonly languages: string[],
